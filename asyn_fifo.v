@@ -50,4 +50,5 @@ always @(*) begin
     fifo_empty = (wr_ptr == rd_ptr);
 end
 
+
 endmodule
