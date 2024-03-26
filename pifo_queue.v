@@ -51,6 +51,7 @@ always @(posedge clk) begin
             if (count == 1) empty <= 1;
             busy <= 0; // 解锁队列
         end
+        
     end
 end
 
