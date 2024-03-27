@@ -9,6 +9,7 @@ module async_fifo #(
     input [DATA_WIDTH-1:0] wr_data, // Data input
     input wr_en,  // Write enable
     input rd_en,  // Read enable
+    input [DATA_WIDTH-1:0] rd_data,     // Data output
     output reg [DATA_WIDTH-1:0] rd_data, // Data output
     output reg fifo_full,  // FIFO full flag
     output reg fifo_empty  // FIFO empty flag
